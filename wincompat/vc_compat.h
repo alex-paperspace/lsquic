@@ -1,7 +1,7 @@
 /* Copyright (c) 2017 - 2022 LiteSpeed Technologies Inc.  See LICENSE. */
 #pragma once
-#include <Windows.h>
 #include <winsock2.h>
+#include <Windows.h>
 typedef SSIZE_T ssize_t;
 struct iovec {
   void  *iov_base;    /* Starting address */
